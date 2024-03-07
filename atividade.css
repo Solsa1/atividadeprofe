@@ -1,0 +1,23 @@
+@charset "utf-8";
+body{
+    background-color: blanchedalmond;
+}
+
+h1{
+    font-size: 200px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+p{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+}
+ol{
+    background-color: burlywood;
+    text-transform: capitalize;
+}
+li::marker {
+    color:darkred;
+    content: '✝ ';
+    font-size: 1.2em;
+}
